@@ -1,0 +1,10 @@
+---
+name: Unset current Kubernetes Context
+command: "kubectl config unset current-context"
+tags:
+  - kubectl
+description: "Unset current Kubernetes Context"
+source_url: "https://github.com/prom3theu5/dotfiles"
+author: David Sekula
+author_url: "https://github.com/prom3theu5"
+shells: []

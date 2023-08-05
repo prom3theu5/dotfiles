@@ -1,0 +1,15 @@
+# Inventory for personal network's
+#
+# Please only use this as an example!
+
+
+# Production and Demo Servers
+
+[srv-prod]
+srv-prod-1.some-url.com
+srv-prod-2.some-url.com
+srv-prod-3.some-url.com
+
+[srv-demo]
+srv-demo-1.some-url.com
+srv-demo-2.some-url.com

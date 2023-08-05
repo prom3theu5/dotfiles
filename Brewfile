@@ -1,7 +1,6 @@
+tap "homebrew/bundle"
 tap "1password/tap"
 tap "hashicorp/tap"
-tap "homebrew/bundle"
-tap "homebrew/core"
 tap "pulumi/tap"
 brew "ansible"
 brew "argocd-autopilot"

@@ -46,6 +46,3 @@ esac
 
 export STARSHIP_DISTRO="$ICON"
 export STARSHIP_DEVICE="$DEVICE"
-
-# Load Starship
-eval "$(starship init zsh)"

@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if ! command -v brew &>/dev/null; then
-    echo "🔧 Installing Homebrew..."
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-fi
-
 if ! command -v mas &>/dev/null; then
     echo "🔧 Installing Mac App Store CLI..."
     brew install mas
@@ -19,5 +14,11 @@ if ! command -v fish &>/dev/null; then
     chsh -s "$(which fish)"
 fi
 
-chezmoi apply -v
+if ! command -v tv &>/dev/null; then
+    echo "🔧 Installing Television CLI..."
+    brew install televison
+    tv update-channels
+fi
+
+chezmoi apply
 

@@ -14,6 +14,7 @@ packages:
       - "weaveworks/tap"
       - "microsoft/foundrylocal"
       - "slp/krunkit"
+      - "garethgeorge/homebrew-backrest-tap"
     brews:
       - "act"
       - "age"
@@ -29,6 +30,7 @@ packages:
       - "azure-cli"
       - "azure/functions/azure-functions-core-tools@4"
       - "bat"
+      - "backrest"
       - "btop"
       - "caddy"
       - "cffi"
